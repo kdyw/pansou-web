@@ -5,8 +5,8 @@ services:
     image: ghcr.io/fish2018/pansou-web:latest
     container_name: pansou-app
     ports:
-      - "80:80"
-      - "443:443"
+      - "8080:8080"
+      - "8443:8443"
     environment:
       # 基础配置
       - DOMAIN=localhost
